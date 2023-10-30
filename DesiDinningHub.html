@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--
+    - primary meta tag
+   -->
+
+    <title>Desi Dining Hub: Where Every Bite is a Taste of India!</title>
+    <meta name="title" content="Desi Dining Hub: Where Every Bite is a Taste of India!">
+    <meta name="description" content="A culinary journey through India's flavors, where each bite tells a delicious story of Indian cuisine.">
+
+    <!--
+     - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <!--
+        - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+    <!--
+        -custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!--
+        -preload images
+    -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1ddh.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2ddh.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3ddh.jpg">
+</head>
+<body>
+    <!-- 
+        - #PRELOADER
+     -->
+     <div class="preload" data-preload>
+     <div class="circle"></div>
+     <p class="text">Desi Dinning Hub </p>
+     </div>
+
+     <!--
+        - #TOP BAR
+     -->
+    <div class="topbar">
+        <div class="container">
+            <address class="topbar-item">
+                <div class="icon">
+                    <ion-icon name="location-outline" 
+                     aria-hidden="true"></ion-icon>
+                </div>
+
+                <span class="span">
+                    Indian Street, Mumbai, Maharashtra, India
+                </span>
+            </address>
+        
+            <div class="separator"></div>
+        
+            <div class="topbar-item item-2 ">
+                <div class="icon">
+                    <ion-icon name="timeline-outline" 
+                    aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">
+                    Daily : 8.00 am to 10.00 pm
+                </span>
+            </div>
+
+             <a href="tel:+911234567890" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="call-outline" 
+                     aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">
+                    +91 123 456 7890
+                </span>
+            </a>
+
+            <div class="separator"></div>
+            <a href="mailto:booking@restaurant.com" class="topbar-item link">
+                <div class="icon">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">
+                    booking@restaurant.com
+                </span>
+            </a>
+        </div>
+    </div>    
+    <!--
+        - #HEADER
+    -->
+    <header class="header" data-header>
+
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logoddh.svg" width="200px" height="100px" alt="DDH - Home">
+            </a>
+            <nav class="navbar" data-navbar>
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <div class="close-icon">x</div>
+                    <ion-icon class="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/logoddh.svg" width="160" height="50" alt="DDH - Home">
+                </a>
+                <ul class="navbar-list">
+                    <li class="navbar-item active">
+                        <a href="#home" class="navbar-link hover-underline"></a>
+                        <div class="separator"></div>
+
+                        <span class="span">Home</span>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#menu" class="navbar-link hover-underline"></a>
+                        <div class="separator"></div>
+
+                        <span class="span">Menus</span>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#chefs" class="navbar-link hover-underline"></a>
+                        <div class="separator"></div>
+
+                        <span class="span">Our Chefs</span>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link hover-underline"></a>
+                        <div class="separator"></div>
+
+                        <span class="span">Contact</span>
+                    </li>
+                </ul>
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Visit Us</p>
+                    <address class="body-4">
+                        Indian Street, Mumbai,<br>
+                         Maharashtra, India
+                    </address>
+                    <p class="body-4 navbar-text">
+                        Open: 9.30 am - 2.30pm
+                    </p>
+                    <a href="booking@ddh.com" class="body-4 sidebar-link">booking@ddh.com</a>
+                    <div class="separator"></div>
+                    <p class="contact-label">Booking Request</p>
+                    <a href="" class="body-1 contact-number hover-underline">+91 123 456 7890</a>
+                </div>
+
+            </nav>
+
+            <a href="#" class="btn btn-secondary">
+                <span class="text text-1">Find A Table</span>
+                <span class="text text-2" aria-hidden="true">Find A Table</span>
+            </a>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+
+    </header>
+
+    
+    <main>
+        <article>
+        <!--
+            - #HERO
+        -->
+        <section class="hero text-center" aria-label="home" id="home">
+            <ul class="hero-slider" data-hero-slider>
+                
+                <li class="slider-item active" data-hero-slider-item>
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slider-1ddh.jpg" width="1880" height="950" alt=""
+                        class="img-cover">
+                    </div>
+                    <p class="label-2 section-subtitle slider-reveal">Traditional & Hygine</p>
+                    <h1 class="display-1 hero-title slider-reveal">
+                        For the love of <br>
+                        delicious food
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        Come with family & feel the joy of mouthwatering food
+                    </p>
+
+                    <a href="#" class="btn btn-secondary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+                        <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                    </a>
+                </li>
+
+                <li class="slider-item" data-hero-slider-item>
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slider-2ddh.jpg" width="1880" height="950" alt=""
+                        class="img-cover">
+                    </div>
+                    <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Flavors Inspired by <br>
+                        the Seasons
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        Come with family & feel the joy of mouthwatering food
+                    </p>
+
+                    <a href="" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+                        <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                    </a>
+                </li>
+
+                <li class="slider-item" data-hero-slider-item>
+                    <div class="slider-bg">
+                        <img src="./assets/images/hero-slider-3ddh.jpg" width="1880" height="950" alt=""
+                        class="img-cover">
+                    </div>
+                    <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+                    <h1 class="display-1 hero-title slider-reveal">
+                        Where every flavor <br>
+                        tells a story
+                    </h1>
+
+                    <p class="body-2 hero-text slider-reveal">
+                        Come with family & feel the joy of mouthwatering food
+                    </p>
+
+                    <a href="" class="btn btn-primary slider-reveal">
+                        <span class="text text-1">View Our Menu</span>
+                        <span class="text text-2" aria-hidden="true">View Our Menu</span>
+                    </a>
+                </li>
+
+            </ul>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                <ion-icon name="chevron-back"></ion-icon>
+            </button>
+        
+            <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                <ion-icon name="chevron-forward"></ion-icon>
+            </button>
+            <a href="#" class="hero-btn has-after">
+                <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+                <span class="label-2 text-center span">Book A Table</span>
+            </a>
+
+        </section>
+
+        <!--
+            - #SERVICE
+        -->
+        <section class="section service bg-black-10 text-center" aria-label="service">
+            <div class="container">
+                <p class="section-subtitle label-2">Flavors For Royalty</p>
+                
+                <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+
+                <p class="section-text">
+                    Indian cuisine, featuring a delightful array of flavors and dishes that capture the essence of India's diverse culinary heritage.
+                </p>
+
+                <ul class="grid-list">
+
+                    <li>
+                        <div class="div service-card">
+                            <a href="#" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width:285 ; --height:336 ;">
+                                    <img src="./assets/images/service-1ddh.jpg" width="285" height="336" alt="Breakfast" 
+                                    loading="lazy" class="img-cover">
+                                </figure>
+                            </a>
+
+                         <div class="card-content">
+                            <h3 class="title-4 card-title">
+                                <a href="#">Breakfast</a>
+                            </h3>
+
+                            <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                         </div>
+
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="div service-card">
+                            <a href="#" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width:285 ; --height:336 ;">
+                                    <img src="./assets/images/service-2ddh.jpg" width="285" height="336" alt="Appetizers" 
+                                    loading="lazy" class="img-cover">
+                                </figure>
+                            </a>
+
+                         <div class="card-content">
+                            <h3 class="title-4 card-title">
+                                <a href="#">Appetizers</a>
+                            </h3>
+
+                            <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                         </div>
+
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="div service-card">
+                            <a href="#" class="has-before hover:shine">
+                                <figure class="card-banner img-holder" style="--width:285 ; --height:336 ;">
+                                    <img src="./assets/images/service-3ddh.jpg" width="285" height="336" alt="Drinks" 
+                                    loading="lazy" class="img-cover">
+                                </figure>
+                            </a>
+
+                         <div class="card-content">
+                            <h3 class="title-4 card-title">
+                                <a href="#">Drinks</a>
+                            </h3>
+
+                            <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                         </div>
+
+
+                        </div>
+                    </li>
+
+                </ul>
+
+                <img src="./assets/images/shape-1.png" alt="246" height="412" 
+                alt="shape" class="shape shape-1 move-anim">
+
+                <img src="./assets/images/shape-2.png" alt="343" height="345" 
+                alt="shape" class="shape shape-2 move-anim">
+
+            </div>
+        </section>
+
+        <!--
+            - #ABOUT
+        -->
+        <section class="section about text-center" aria-labelledby="about-label" id="about">
+            <div class="div container">
+                <div class="about-content">
+                    <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+                    <h2 class="headline-1 section-title">Every Flavor Tells a Story</h2>
+                    <p class="section-text">
+                        DesiDiningHub is one of passion for Indian cuisine. We're dedicated to sharing the diverse flavors of India with our customers. With each dish, we aim to provide an authentic taste of this incredible culinary heritage. From the North to the South, our menu is a reflection of India's rich and vibrant food culture.
+                    </p>
+                    <div class="contact-label">Book Through Call </div>
+                    <a href="" class="body-1 contact-number hover-underline">+91 123 456 7890</a>
+                    <a href="" class="btn btn-primary">
+                        <span class="text text-1">READ MORE</span>
+                            <span class="text text-2" aria-hidden="true">READ MORE</span>
+                    </a>
+                </div>
+
+                <figure class="about-banner">
+                    <img src="./assets/images/about-bannerddh.jpg" width="670" height="570"
+                    loading="lazy" alt="about banner" class="w-100"
+                    data-parallax-item data-parallax-speed="1">
+
+                    <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                        <img src="./assets/images/about-abs-imageddh.jpg" width="285" height="285"
+                        loading="lazy" alt="" class="w-100">
+                    </div>
+
+                    <div class="abs-img abs-img-2 has-before">
+                        <img src="./assets/images/badge-2.png" width="133" height="133"
+                        loading="lazy">
+                    </div>
+
+                    <img src="./assets/images/shape-3.png" alt="" class="shape" width="197" height="194"
+                    loading="lazy">
+            
+                </figure>
+            </div>
+        </section>
+
+
+        <!--
+            - #SPECIAL DISH
+        -->
+        <section class="special-dish text-center" aria-labelledby="dish-label">
+            <div class="special-dish-banner">
+                <img src="./assets/images/special-dish-bannerddh.jpg" width="940" height="900" alt="specialdish" 
+                loading="lazy" class="img-cover">
+            </div>
+            <div class="special-dish-content bg-black-10">
+                <div class="container">
+                    <img src="./assets/images/badge-1.png"  width="28" height="41" 
+                    loading="lazy" alt="badge" class="abs-img">
+
+                    <p class="section-subtitle label-2">special Dish</p>
+                    <h2 class="headline-1 section-title">Annapoorna Thali</h2>
+                    <p class="section-text">
+                        Diverse and elaborate vegetarian platter that celebrates traditional Indian cuisine. It includes a variety of dishes, both savory and sweet, offering a harmonious blend of flavors. It's a culinary journey that nourishes the soul and is a symbol of gratitude for the gift of food.
+                    </p>
+                    <div class="wrapper">
+                        <del class="del body-3">₹500.00</del>
+                        <span class="span body-1">₹390.00</span>
+                    </div>
+                    <a href="" class="btn btn-primary">
+                        <span class="text text-1">view all menu</span>
+                            <span class="text text-2" aria-hidden="true">view all menu</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--
+            - #MENU
+        -->
+        <section class="section menu" aria-label="menu-label" id="menu">
+            <div class="container">
+                <p class="section-subtitle text-center label-2">Special Selection</p>
+
+                <h2 class="headline-1 section-title text-center">delicious Menu</h2>
+                <ul class="grid-list">
+
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                            <img src="./assets/images/menu-1ddh.png" width="100" height="100" 
+                            loading="lazy"alt="palak panner" class="img-cover"></figure>
+                            
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Palak Paneer</a>
+                                    </h3>
+                                    <span class="badge label-1">Seasonal</span>
+                                    <span class="span title-2">₹235.0</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Spinach, paneer (cottage cheese), and aromatic Indian spices.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="./assets/images/menu-2ddh.png" width="100" height="100" 
+                                loading="lazy" alt="Veg Jalfrezi" class="img-cover">
+                            </figure>
+                            
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Veg Jalfrezi</a>
+                                    </h3>
+                                    <span class="badge label-1">New</span>
+                                    <span class="span title-2">₹230.0</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Mixed vegetables, sautéed with Indian spices and a rich tomato-based gravy.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="./assets/images/menu-3ddh.png" width="100" height="100" 
+                                loading="lazy" alt="Veg Kofta" class="img-cover">
+                            </figure>
+                            
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Veg Kofta</a>
+                                    </h3>
+                                    <span class="span title-2">₹190.0</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Mixed vegetable koftas in a creamy, flavorful gravy.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="./assets/images/menu-4ddh.png" width="100" height="100" 
+                                loading="lazy" alt="Dal Makhani" class="img-cover">
+                            </figure>
+                            
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Dal Makhani</a>
+                                    </h3>
+                                    <span class="span title-2">₹130.0</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Black lentils and kidney beans cooked in a creamy tomato-based sauce with Indian spices.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="./assets/images/menu-5ddh.png" width="100" height="100" 
+                                loading="lazy" alt="Jeera Aloo" class="img-cover">
+                            </figure>
+                            
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Jeera Aloo</a>
+                                    </h3>
+                                    <span class="span title-2">₹110.0</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Jeera Aloo is a dish made with potatoes sautéed with cumin seeds and Indian spices.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="menu-card hover:card">
+                            <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                                <img src="./assets/images/menu-6ddh.png" width="100" height="100" 
+                                loading="lazy" alt="Chhole Pulao" class="img-cover">
+                            </figure>
+                            
+                            <div>
+                                <div class="title-wrapper">
+                                    <h3 class="title-3">
+                                        <a href="#" class="card-title">Chhole Pulao</a>
+                                    </h3>
+                                    <span class="span title-2">₹350.0</span>
+                                </div>
+                                <p class="card-text label-1">
+                                    Chhole Pulao is a delicious dish made with spiced chickpeas and rice cooked together with Indian spices.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+                <p class="menu-text text-center">
+                    During winter daily from <span class="span">7:00 PM</span> to <span class="span">10:00 PM</span>
+                </p>
+                
+                <a href="" class="btn btn-primary">
+                    <span class="text text-1">view all menu</span>
+                        <span class="text text-2" aria-hidden="true">view all menu</span>
+                </a>
+
+                <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="Shape"
+                class="shape shape-2 move-anim">
+                <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="Shape"
+                class="shape shape-3 move-anim">
+
+
+            </div>
+        </section>
+
+        <!--
+            - #TESTIMONIALS
+        -->
+        <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bgddh\ .png')"aria-label="testimonials">
+
+        <div class="container">
+
+            <div class="quote"></div>
+
+            <p class="headline-2 testi-text">
+                " I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary."
+            </p>
+            <div class="wrapper">
+                <div class="separator"></div>
+                <div class="separator"></div>
+                <div class="separator"></div>
+            </div>
+            
+            <div class="profile">
+                <img src="./assets/images/testi-avatarddh.jpg" width="100" height="100" loading="lazy" alt="Sam Johnson" class="img">
+                <p class="label-2 profile-name">Sameer Verma</p>
+            </div>
+            
+        </div>
+        </section>
+
+
+        <!--
+            - #RESERVATION
+        -->
+
+        <section class="reservation">
+            <div class="container">
+                <div class="form reservation-form bg-black-10">
+
+                    <form action="" class="form-left">
+                        <h2 class="headline-1 text-center">Online Reservation</h2>
+
+                        <p class="form-text text-center">
+                            To make a booking request, please call 
+                            <a href="tel:+911234567890" class="link">+91 123 456 7890</a> 
+                            or fill out the order form.
+                        </p>
+                        
+                        <div class="input-wrapper">
+                            <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                            <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <div class="icon-wrapper">
+                                <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                                <select name="person" class="input-field">
+                                    <option value="1-person">1 Person</option>
+                                    <option value="2-person">2 Person</option>
+                                    <option value="3-person">3 Person</option>
+                                    <option value="4-person">4 Person</option>
+                                    <option value="5-person">5 Person</option>
+                                    <option value="6-person">6 Person</option>
+                                    <option value="7-person">7 Person</option>
+                                </select>
+
+                                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+
+                            </div>
+
+                            <div class="icon-wrapper">
+                                <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+                                <input type="date" name="reservation-date" class="input-field">
+                                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                            </div>
+
+                            <div class="icon-wrapper">
+                                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                                <select name="reservation-time" class="input-field">
+                                    <option value="08:00am">08:00 am</option>
+                                    <option value="09:00am">09:00 am</option>
+                                    <option value="10:00am">10:00 am</option>
+                                    <option value="11:00am">11:00 am</option>
+                                    <option value="12:00pm">12:00 pm</option>
+                                    <option value="01:00pm">01:00 pm</option>
+                                    <option value="02:00pm">02:00 pm</option>
+                                    <option value="03:00pm">03:00 pm</option>
+                                    <option value="04:00pm">04:00 pm</option>
+                                    <option value="05:00pm">05:00 pm</option>
+                                    <option value="06:00pm">06:00 pm</option>
+                                    <option value="07:00pm">07:00 pm</option>
+                                    <option value="08:00pm">08:00 pm</option>
+                                    <option value="09:00pm">09:00 pm</option>
+                                    <option value="10:00pm">10:00 pm</option>
+                                </select>
+                                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+                        <button type="submit" class="btn btn-secondary">
+                            <span class="text text-1">Book A Table</span>
+                            <span class="text text-2" aria-hidden="true">Book A Table</span>
+                        </button>
+
+                    </form>
+
+                    <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+                        <h2 class="headline-1 text-center">Contact Us</h2>
+                        <p class="contact-label">Booking Request</p>
+                        <a href="tel:+911234567890" class="body-1 contact-number hover-underline">+91 123 456 7890</a>
+                    
+                        <div class="separator"></div>
+
+                        <p class="contact-label">Location</p>
+                        <address class="body-4">
+                            Indian Street, Mumbai,<br> 
+                            Maharashtra, India
+                        </address>
+                        
+                        <p class="contact-label">Lunch Time</p>
+                        <p class="body-4">
+                            Monday to Sunday <br>
+                            11:00 am - 2:30 pm
+                        </p>
+                        
+                        
+                        <p class="contact-label">Dinner Time</p>
+                        <p class="body-4">
+                            Monday to Sunday<br>
+                            05.00 pm - 10.00pm
+                        </p>
+
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </section>
+        
+        <!--
+            - #FEATURE
+        -->
+        <section class="section features text-center" aria-label="features">
+            <div class="container">
+
+                <p class="section-subtitle label-2">Why Choose Us</p>
+
+                <h2 class="headline-1 section-title">Our Strength</h2>
+
+                <ul class="grid-list">
+                    <li class="feature-item">
+                        <div class="card-icon">
+                            <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="Hygienic Food">
+                        </div>
+                        <h3 class="title-2 card-title">Hygienic Food</h3>
+                        <p class="label-1 card-text">We prioritize hygiene in our food preparation to provide you with safe and delicious dining experiences.</p>
+                    </li>
+        
+                    <li class="feature-item">
+                        <div class="card-icon">
+                            <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="Fresh Environment">
+                        </div>
+                        <h3 class="title-2 card-title">Fresh Environment</h3>
+                        <p class= "label-1 card-text">We maintain a fresh environment to ensure your dining experience is not only pleasant but also safe and delightful.</p>
+                    </li>
+        
+                    <li class="feature-item">
+                        <div class="card-icon">
+                            <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="Skilled Chefs">
+                        </div>
+                        <h3 class="title-2 card-title">Skilled Chefs</h3>
+                        <p class="label-1 card-text">Our skilled chefs prioritize culinary artistry, ensuring safe and delightful dining experiences with their expertise and delicious creations.</p>
+                    </li>
+        
+                    <li class="feature-item">
+                        <div class="card-icon">
+                            <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="Event & Party Catering">
+                        </div>
+                        <h3 class="title-2 card-title">Event & Party Catering</h3>
+                        <p class="label-1 card-text">Our specialized catering services prioritize hygiene to ensure safe and delightful dining experiences during your events and parties.</p>
+                    </li>
+                </ul>
+
+                <img src="./assets/images/shape-1.png" width="208" height="178" loading="lazy" alt="shape" class="shape shape-1">
+                <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape" class="shape shape-2">
+
+
+            </div>
+        </section>
+        
+        <!--
+            - #EVENT
+        -->
+
+        <section class="section event bg-black-10" aria-label="event"> 
+            <div class="container">
+
+                <p class="section-subtitle label-2 text-center">Recent Updates</p>
+                <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
+                <ul class="grid-list">
+                    
+                    <li>
+                      <div class="event-card has-before hover:shine">
+                        
+                        <div class="card-banner img-holder" style="--width: 350px; --height: 450px;">
+                          <img src="./assets/images/event-1.jpg" width="350" height="450" 
+                          loading="lazy" alt="Flavour so good you'll try to eat with your eyes." class="img-cover">
+                          <time class="publish-date label-2" datetime="2023-11-05">05/11/2023</time>
+
+                          <div class="card-content">
+                            <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+                            <h3 class="card-title title-2 text-center">Flavor so enticing, you'll want to savor it with your eyes.</h3>
+                          </div>
+                          
+
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                        <div class="event-card has-before hover:shine">
+                          
+                          <div class="card-banner img-holder" style="--width: 350px; --height: 450px;">
+                            <img src="./assets/images/event-2.jpg" width="350" height="450" 
+                            loading="lazy" alt="Flavour so good you'll try to eat with your eyes." class="img-cover">
+                            <time class="publish-date label-2" datetime="2023-11-25">25/11/2023</time>
+  
+                            <div class="card-content">
+                              <p class="card-subtitle label-2 text-center">Healthy Food</p>
+                              <h3 class="card-title title-2 text-center">Nourishing flavors that are a treat for your well-being.</h3>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="event-card has-before hover:shine">
+                          
+                          <div class="card-banner img-holder" style="--width: 350px; --height: 450px;">
+                            <img src="./assets/images/event-3.jpg" width="350" height="450" 
+                            loading="lazy" alt="Flavour so good you'll try to eat with your eyes." class="img-cover">
+                            <time class="publish-date label-2" datetime="2023-12-03">03/12/2023</time>
+  
+                            <div class="card-content">
+                                <p class="card-subtitle label-2 text-center">Recipe Competition</p>
+                                <h3 class="card-title title-2 text-center">Join our Recipe Competition to share your unique recipes and win exciting prizes!</h3>
+                              </div>
+                            
+                          </div>
+                        </div>
+                      </li>
+
+                  </ul>
+                  
+                  <a href="#" class="btn btn-primary">
+                    <span class="text text-1">Explore Our Blog</span>
+                    <span class="text text-2" aria-hidden="true">Explore Our Blog</span>
+                  </a>
+                  
+
+            </div>
+        </section>
+
+
+        </article>
+    </main>
+
+    <!--
+        - #FOOTER
+    -->
+    <footer class="footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-bg.jpg')">
+        <div class="container">
+            <div class="footer-top grid-list">
+                <div class="footer-brand has-before has-after">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logoddh.svg" width="160" height="50" alt="DDH - Home">
+                    </a>
+            
+                    <address class="body-4">
+                        Indian Street, Mumbai,<br>
+                        Maharashtra, India
+                    </address>
+                    <a href="mailto:booking@ddh.com" class="body-4 contact-link">booking@ddh.com</a>
+                    <a href="tel:+911234567890" class="body-4 contact-link">Booking Request:+91 123 456 7890</a>
+                    <p class="body-4">
+                        Open: 09:00 am - 02:00 pm
+                    </p>
+            
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+            
+                    <p class="title-1">Get News & Offers</p>
+                    <p class="label-1">Subscribe to our newsletter and get <span class="span">25% Off.</span></p>
+                    
+                    <form action="" class="input-wrapper">
+                        <div class="icon-wrapper">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+                        </div>
+                        <button type="submit" class="btn btn-secondary">
+                        <span class="text text-1">Subscribe</span>
+                        <span class="text text-2" aria-hidden="true">Subscribe</span>
+                        </button>
+                    </form>
+                </div>
+                    
+                    <ul class="footer-list">
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Home</a>
+                        </li>
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+                        </li>
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+                        </li>
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+                        </li>
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <ul class="footer-list">
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+                        </li>
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+                        </li>
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+                        </li>
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+                        </li>
+                        <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+                        </li>
+                    </ul>
+            </div>
+        
+    
+            <div class="footer-bottom">
+                <p class="copyright">
+                &copy; 2023 DesiDiningHub. All Rights Reserved | Crafted by <a href="https://github.com/tcet" target="_blank" class="link">TCET</a>
+                </p>
+            </div>   
+        </div>
+    </footer>
+  
+    <!--
+        - #BACK TO TOP
+    -->
+    <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+      
+
+
+
+    <!--
+        - custom js link
+    -->
+    <script src="./assets/js/script.js">
+
+    </script>
+    
+    <!--
+        - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
